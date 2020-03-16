@@ -1,0 +1,35 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10"
+          stylesheets="@style.css">
+
+    <Button text="Arousing" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#handleButtonClick"/>
+    <Button text="Awful" GridPane.rowIndex="0" GridPane.columnIndex="1" onAction="#handleButtonClick"/>
+    <Button text="Bench press" GridPane.rowIndex="0" GridPane.columnIndex="2" onAction="#handleButtonClick"/>
+
+    <Button text="Fat chicks" GridPane.rowIndex="1" GridPane.columnIndex="0" onAction="#handleButtonClick"/>
+    <Button text="Fifty box" GridPane.rowIndex="1" GridPane.columnIndex="1" onAction="#handleButtonClick"/>
+    <Button text="Giggidi" GridPane.rowIndex="1" GridPane.columnIndex="2" onAction="#handleButtonClick"/>
+
+    <Button text="Girly magazines" GridPane.rowIndex="2" GridPane.columnIndex="0" onAction="#handleButtonClick"/>
+    <Button text="Going" GridPane.rowIndex="2" GridPane.columnIndex="1" onAction="#handleButtonClick"/>
+    <Button text="Heard that" GridPane.rowIndex="2" GridPane.columnIndex="2" onAction="#handleButtonClick"/>
+
+    <Button text="Hit the bar" GridPane.rowIndex="3" GridPane.columnIndex="0" onAction="#handleButtonClick"/>
+    <Button text="How good" GridPane.rowIndex="3" GridPane.columnIndex="1" onAction="#handleButtonClick"/>
+    <Button text="Neat idea" GridPane.rowIndex="3" GridPane.columnIndex="2" onAction="#handleButtonClick"/>
+
+    <Button text="No problem" GridPane.rowIndex="4" GridPane.columnIndex="0" onAction="#handleButtonClick"/>
+    <Button text="Parking ticket" GridPane.rowIndex="4" GridPane.columnIndex="1" onAction="#handleButtonClick"/>
+    <Button text="Potential" GridPane.rowIndex="4" GridPane.columnIndex="2" onAction="#handleButtonClick"/>
+
+    <Button text="Quagmire" GridPane.rowIndex="5" GridPane.columnIndex="0" onAction="#handleButtonClick"/>
+    <Button text="Transvestite" GridPane.rowIndex="5" GridPane.columnIndex="1" onAction="#handleButtonClick"/>
+    <Button text="Whaaaaheeehey" GridPane.rowIndex="5" GridPane.columnIndex="2" onAction="#handleButtonClick"/>
+
+
+</GridPane>

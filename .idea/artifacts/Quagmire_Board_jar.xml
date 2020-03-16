@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Quagmire Board:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Quagmire_Board_jar</output-path>
+    <root id="archive" name="Quagmire Board.jar">
+      <element id="module-output" name="Quagmire Board" />
+    </root>
+  </artifact>
+</component>
