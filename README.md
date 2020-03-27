@@ -2,4 +2,5 @@
 Just Quagmire and his best one-liners
 
 
-## Run with your favourite Java IDE
+## How to run
+Using quagmire.exe or with IDE
